@@ -7,6 +7,8 @@ namespace LessQL;
  */
 class Database
 {
+    private $this->pdo;
+    
     /**
      * Constructor. Sets PDO to exception mode.
      *
